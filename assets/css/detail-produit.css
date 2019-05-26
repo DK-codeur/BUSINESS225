@@ -1,0 +1,97 @@
+#detail-carou
+    {   
+        width: 80%;
+        margin: auto;
+        border: 1px rgb(224, 224, 224) solid
+    }
+
+.carou-indicator
+    {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+
+
+
+form .form-control
+    {
+        width: 54% !important
+    }
+
+label
+    {
+        width: 120px;
+    }
+
+.produit-detail
+    {
+        width: 80%;
+        margin: 6% auto 4% auto;
+    }
+
+
+
+.indication-menu
+    {
+
+        box-shadow: 3px 1px 4px #d0d0d0;
+    }
+
+form button
+    {
+        margin: 0 !important;
+    }
+
+form button:hover
+    {
+        background-color: rgb(28, 28, 78) !important;
+    }
+
+
+
+.box-comment
+    {
+        margin: 12px auto;
+        padding: 20px;
+        background-color: #fbfbfb; 
+    }
+
+.divider-color
+    {
+        width: 100px;
+        height: 4px;
+        background-color: #139dd0;
+        margin: 12px auto;
+    }
+
+#related-carou .carousel-indicators
+    {
+        bottom: -50px !important;
+    }
+
+#related-carou .fas.fa-chevron-left
+    {
+        position: absolute;
+        left: 0px;
+        color: black;
+    }
+
+#related-carou .fas.fa-chevron-right
+    {
+        position: absolute;
+        right: 0px;
+        color: black;
+    }
+
+
+
+/**************************************[@ media]********************************/
+@media screen and (min-width: 992px)
+    {
+        .related-product
+            {
+                width: 70% !important;
+                margin: auto !important;
+            }
+    }
